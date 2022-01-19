@@ -8,28 +8,41 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: grey;
+  background: radial-gradient(
+    circle,
+    rgba(27, 8, 16, 1) 0%,
+    rgba(233, 148, 148, 0.5480567226890756) 100%
+  );
 }
 
-.projects {
+.glide {
   display: flex;
+
   align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
+  padding: 20%;
   background-color: red;
   width: 50%;
   min-height: 100vh;
 }
 
+.glide__slides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .glide__slide img {
-  width: 50%;
+  width: 100%;
+}
+
+.glide-arrows {
+  display: block;
 }
 
 .my-image {
   border-radius: 30px;
-  width: 40%;
-  height: 40%;
+  width: 10%;
+  height: 10%;
 }
 
 .custom-header {
@@ -88,4 +101,8 @@ footer {
 .fas,
 .copyright {
   color: #fff0f5;
+}
+
+.text-center {
+  letter-spacing: 3px;
 }
