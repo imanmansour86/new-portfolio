@@ -4,5 +4,5 @@ new Glide(".glide", {
   type: "carousel",
   startAt: 1,
   gap: 0,
-  perView: 1,
+  perView: 3,
 });
