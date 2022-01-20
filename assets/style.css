@@ -76,12 +76,10 @@ a:hover {
   font-size: 50px;
   text-align: center;
   color: black;
-  text-decoration: none;
 }
 
 .card-info:hover {
   text-decoration: none;
-  color: black;
 }
 
 /* The hero image */
