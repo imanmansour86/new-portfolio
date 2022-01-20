@@ -14,7 +14,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
     <script
       src="https://kit.fontawesome.com/df54146bae.js"
       crossorigin="anonymous"
@@ -60,7 +63,12 @@
             <a class="nav-link active" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#resume">Resume</a>
+            <a
+              target="blank"
+              class="nav-link active"
+              href="/Users/imanmansour/Documents/new-portfolio/images/Iman-resume.pdf"
+              >Resume</a
+            >
           </li>
         </ul>
       </div>
@@ -83,7 +91,7 @@
       <div class="glide">
         <div class="glide__track" id="project" data-glide-el="track">
           <ul class="glide__slides">
-            <li class="glide__slide">
+            <li class="glide__slide first">
               <div class="card-info">Map-a-Test</div>
               <img src="images/map-a-test.png" alt="" />
               <div class="card-info">
@@ -168,7 +176,7 @@
         </div>
       </div>
     </div>
-
+    <div id="read-me"></div>
     <!--Footer-->
 
     <div class="container my-5">
@@ -216,9 +224,7 @@
               ><i class="fas fa-phone-alt"></i
             ></a>
           </section>
-          <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
 
         <!-- Copyright -->
         <div class="text-center p-3 copyright">
@@ -227,7 +233,7 @@
         <!-- Copyright -->
       </footer>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
     <script src="node_modules/@glidejs/glide/dist/glide.js"></script>
