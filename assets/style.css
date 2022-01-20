@@ -110,4 +110,11 @@ a:hover {
   left: 40%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 15px;
+  }
 }
