@@ -2,14 +2,14 @@
 
 ## Description
 
-This website is created to show My Portfolio. It has a header, hero text and image, projects preview container , and a footer. The website is builds using Bootstrap and Glide.js. The description section under each project is retreived dynamically from GitHub API using fetch. The app features responsive layout on small devices using media queries.
+This website is created to show My Portfolio. It has a header, hero text and image, projects preview container, and a footer. The website is built using Bootstrap and Glide.js. The description section under each project is retreived dynamically from GitHub API using fetch. The app features responsive layout on small devices using media queries.
 
 ## Screenshots of the app
 
 Header
 ![Page Header](/images/header.png)
 
-Projects
+## Projects
 
 ## Built With
 
