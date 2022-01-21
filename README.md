@@ -15,8 +15,6 @@ Project card
 Footer
 ![Page Header](/images/footer.png)
 
-## Projects
-
 ## Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
