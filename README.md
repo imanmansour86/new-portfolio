@@ -14,14 +14,18 @@ The projects container is built using Glidejs. It is a JavaScript ES6 slider and
 
 - Link CDN
 
-````<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="assets/glide/glide.js"></script>```
+  https://cdn.jsdelivr.net/npm/@glidejs/glide
+
+  https://unpkg.com/@glidejs/glide
 
 - Add Style sheet
-``
+
+```
 <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
-````
+```
+
+- Mount the glide in script.js
 
 ```new Glide(".glide", {
   type: "carousel",
