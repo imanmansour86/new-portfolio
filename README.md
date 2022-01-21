@@ -18,6 +18,10 @@ This website is created to show My Portfolio. It has a header, hero text and ima
 
 ![Page Header](/images/footer.png)
 
+## Responsive on Mobile
+
+![Gif](/assets/responsive.gif)
+
 ## Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
