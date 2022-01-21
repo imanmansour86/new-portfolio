@@ -86,9 +86,7 @@ a:hover {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/iman-image.jpeg");
-
   height: 60%;
-
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -109,7 +107,7 @@ a:hover {
   color: black;
 }
 
-/* media query for responsive layout */
+/* media query for responsive layout on small devices */
 @media screen and (max-width: 800px) {
   .hero-text {
     font-size: 15px;
