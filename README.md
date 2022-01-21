@@ -9,6 +9,12 @@ This website is created to show My Portfolio. It has a header, hero text and ima
 Header
 ![Page Header](/images/header.png)
 
+Project card
+![Page Header](/images/project.png)
+
+Footer
+![Page Header](/images/footer.png)
+
 ## Projects
 
 ## Built With
