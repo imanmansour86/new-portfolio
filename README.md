@@ -6,13 +6,16 @@ This website is created to show My Portfolio. It has a header, hero text and ima
 
 ## Screenshots of the app
 
-Header
+## Header
+
 ![Page Header](/images/header.png)
 
-Project card
+## Project card
+
 ![Page Header](/images/project.png)
 
-Footer
+## Footer
+
 ![Page Header](/images/footer.png)
 
 ## Built With
