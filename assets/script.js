@@ -36,10 +36,10 @@ const getReadMe = (result) => {
   console.log("results is", result);
   // for each starred repo get the repo description
   for (i in result) {
-    firstElement = `<div class="details"><p>${result[3].description}<p><div>`;
-    secondElement = `<div class="details"><p>${result[2].description}<p><div>`;
-    thirdElement = `<div class="details" ><p>${result[0].description}<p><div>`;
-    fourthElement = `<div class="details"><p>${result[1].description}<p><div>`;
+    firstElement = `<div class="details">${result[3].description}<div>`;
+    secondElement = `<div class="details">${result[2].description}<div>`;
+    thirdElement = `<div class="details" >${result[0].description}<div>`;
+    fourthElement = `<div class="details">${result[1].description}<div>`;
   }
 
   //append description to each lit

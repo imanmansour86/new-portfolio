@@ -18,6 +18,15 @@ body {
   background-color: #b7a99a;
 }
 
+.li-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
 .glide-container {
   width: 80%;
   margin-left: auto;
@@ -105,6 +114,7 @@ a:hover {
 .details {
   font-size: 30px;
   color: black;
+  text-align: center;
 }
 
 /* media query for responsive layout on small devices */
