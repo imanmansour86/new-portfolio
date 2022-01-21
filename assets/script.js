@@ -1,10 +1,10 @@
-new Glide(".glide").mount(); //mount the glide
+//mount the glide
 new Glide(".glide", {
   type: "carousel",
   startAt: 1,
   gap: 0,
-  perView: 3,
-});
+  perView: 1,
+}).mount();
 
 //store reference for each li in glide
 let firstRepo = $(".first");

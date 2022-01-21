@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("https://i.pinimg.com/564x/0a/ed/b2/0aedb25871446d48037414049f2e23be.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
